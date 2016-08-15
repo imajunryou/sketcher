@@ -1,4 +1,11 @@
 /*Stylesheet for etch-a-sketch thing based on Odin Project's jQuery project.*/
+body {
+    background-color: #333;
+}
+
+.row {
+    margin-bottom: -8px;
+}
 
 .square {
     background-color: #b5d8d8;
@@ -10,4 +17,20 @@
 
 .highlight {
     background-color: #d8b5ba;
+}
+
+.grid-wrapper {
+    margin: 15px auto;
+    background-color: #888;
+    padding: 3px;
+    padding-bottom: 6px;
+    border: 3px solid #555;
+    width: 96vmin;
+}
+
+.options {
+    margin: 10px auto;
+    width: 96vmin;
+    display: flex;
+    justify-content: center;
 }
