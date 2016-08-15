@@ -1,3 +1,13 @@
 /*Stylesheet for etch-a-sketch thing based on Odin Project's jQuery project.*/
 
+.square {
+    background-color: #b5d8d8;
+    display: inline-block;
+    width: 6vmin;
+    height: 6vmin;
+    text-align: center;
+}
 
+.highlight {
+    background-color: #d8b5ba;
+}
