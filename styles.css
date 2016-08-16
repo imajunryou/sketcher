@@ -3,16 +3,13 @@ body {
     background-color: #333;
 }
 
-.row {
-    margin-bottom: -8px;
-}
-
 .square {
     background-color: #b5d8d8;
     display: inline-block;
     width: 6vmin;
     height: 6vmin;
     text-align: center;
+    margin-bottom: -4px;
 }
 
 .highlight {
@@ -25,7 +22,8 @@ body {
     padding: 3px;
     padding-bottom: 6px;
     border: 3px solid #555;
-    width: 96vmin;
+    width: 80vmin;
+    height: 80vmin;
 }
 
 .options {
